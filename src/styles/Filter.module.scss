@@ -1,0 +1,15 @@
+$light-black: #1d1d1d;
+.filter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  .title {
+    font-size: 0.95rem;
+    font-weight: 400;
+    color: $light-black;
+    text-transform: capitalize;
+  }
+}

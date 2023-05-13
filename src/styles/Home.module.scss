@@ -1,0 +1,22 @@
+$max-width: 1440px;
+$full-width: 100%;
+$full-height: 100%;
+
+.container {
+  display: flex;
+  padding: 8px 20px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: $full-height;
+
+  .section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    max-width: $max-width;
+    width: $full-width;
+  }
+}

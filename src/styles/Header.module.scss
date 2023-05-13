@@ -1,0 +1,44 @@
+$bottom-border: 4px solid #e4e4e4;
+$white: #ffffff;
+$black: #000000;
+$full-width: 100%;
+
+.header {
+  margin: 25px 0;
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: $bottom-border;
+  min-width: $full-width;
+  flex-grow: 1;
+
+  .cart__space {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    gap: 10px;
+  }
+
+  .cart {
+    background-color: $black;
+    margin-right: 20px;
+    padding: 0 5px;
+
+    @media screen and (min-width: 1000px) {
+      margin-right: 100px;
+    }
+
+    span {
+      font-size: 1.35rem;
+      color: $white;
+    }
+  }
+
+  .cart__icon {
+    cursor: pointer;
+  }
+}

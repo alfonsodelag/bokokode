@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+$font-family: "Archivo", sans-serif;
+$primary-color: inherit;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: $font-family;
+}
+
+a {
+  color: $primary-color;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.p_category {
+  text-transform: capitalize;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #656565;
+}
+
+.p_name {
+  text-transform: capitalize;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #000;
+}
+
+.p_price {
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: #656565;
+}
+
+#grayScrollbar::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #f5f5f5;
+}
+
+#grayScrollbar::-webkit-scrollbar {
+  width: 8px;
+  background-color: #f5f5f5;
+}
+
+#grayScrollbar::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #ccc;
+}

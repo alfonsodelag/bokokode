@@ -1,0 +1,15 @@
+$full-width: 100%;
+$gray: #b4b4b4;
+$black: #000000;
+
+.pagination {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+
+  .pagination__btn {
+    cursor: pointer;
+  }
+}
